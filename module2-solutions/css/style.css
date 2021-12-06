@@ -1,0 +1,119 @@
+/********** Styles **********/
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', 'Helvetica';
+  }
+  
+  p {
+    border: 2px solid black;
+    background-color: #999999;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Balsamiq Sans', 'Helvetica';
+    color: black;
+    padding: 10px;
+    margin: 15px;
+    padding-top: 50px;
+    overflow: hidden;
+  }
+  
+  #title_menu_1 {
+    border: 2px solid black;
+    background-color: #D59898;
+    height: 30px;
+    font-family: 'Balsamiq Sans', 'Helvetica';
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 120px;
+    text-align: center;
+  }
+  
+  #title_menu_2 {
+    border: 2px solid black;
+    background-color: #994543;
+    height: 30px;
+    font-family: 'Balsamiq Sans', 'Helvetica';
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 120px;
+    text-align: center;
+  }
+  
+  #title_menu_3 {
+    border: 2px solid black;
+    background-color: #E5D198;
+    height: 30px;
+    font-family: 'Balsamiq Sans', 'Helvetica';
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 120px;
+    text-align: center;
+  }  
+  
+  /* Responsive Framework Simple. */
+  .row {
+    width: 100%;
+    position: relative;
+    }
+  
+  /********** Desktop devices only (min 992px) **********/
+  @media (min-width: 992px) {
+    .col-lg {
+      float: left;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      
+    }
+    .col-lg {
+      width: 33.33%;
+  
+  }
+  }
+  
+  /********** Tablet devices only (768px - 911px)**********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2 {
+     
+      position: relative;
+      float: left;
+    }
+    .col-md-1 {
+      width: 50%;
+  
+    }
+    .col-md-2 {
+      width: 100%;
+      
+    }
+  }
+  
+  /********** Mobile devices only **********/
+  @media (max-width: 767px){
+    .col-sm {
+      position: relative;
+      float: left;
+    }
+    .col-sm {
+      width: 100%;
+  
+    }
+  }
