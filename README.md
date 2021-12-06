@@ -1,1 +1,1 @@
-# coursera-task1
+# coursera-tasks
